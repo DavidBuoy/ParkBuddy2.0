@@ -1,0 +1,17 @@
+[
+  {
+    "id": "1",
+    "park_id_code": "B13AB831-6806-4CBA-A93D-4E2FCC39F6F7",
+    "description": "Located on the north bank of the Columbia River, in sight of snowy mountain peaks and a vibrant urban landscape, this park has a rich cultural past. From a frontier fur trading post, to a powerful military legacy, the magic of flight, and the origin of the American Pacific Northwest, history is shared at four unique sites. Discover stories of transition, settlement, conflict, and community.",
+    "fullName": "Fort Vancouver National Historic Site",
+    "user_id":"3"
+  },
+    {
+    "id": "2",
+    "park_id_code": "81CFE898-AD06-4C0D-8A9B-C8D356273F0D",
+    "description": "With its incredible range of precipitation and elevation, diversity is the hallmark of Olympic National Park. Encompassing nearly a million acres, the park protects a vast wilderness, thousands of years of human history, and several distinctly different ecosystems, including glacier-capped mountains, old-growth temperate rain forests, and over 70 miles of wild coastline. Come explore!",
+    "fullName": "Olympic National Park",
+    "user_id":"3"
+  }
+]
+
