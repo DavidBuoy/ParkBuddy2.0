@@ -143,3 +143,11 @@ footer {
   color: #065b83;
   text-decoration: underline;
 }
+
+.faves-title {
+  text-align: center;
+  padding: 10px;
+  font-size: 30px;
+  font-family: "Fredoka One", cursive;
+  color: #264041;
+}

@@ -27,7 +27,11 @@ router.get('/', async (req, res) => {
   }
 });
 
-
+router.get("/profile", withAuth, async (req, res) => {
+  res.render("faves", {
+    logged_in: req.session.logged_in,
+  });
+});
 
 
 router.get('/login', (req, res) => {

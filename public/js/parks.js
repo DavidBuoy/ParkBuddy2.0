@@ -69,7 +69,7 @@ const start = async () => {
       console.log(response)
       if (response.ok) {
         // If successful, redirect the browser to the profile page
-        document.location.replace('/api/faves');
+        document.location.replace('/profile');
       } else {
         alert(response);
       }

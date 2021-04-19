@@ -28,10 +28,10 @@
           <nav class="float-right">
             <!-- Conditionally render login or logout links -->
             {{#if logged_in}}
-            <a href="/profile">profile</a> |
-            <button class="no-button" id="logout">logout</button>
+            <a href="/profile">FAVES</a> |
+            <button class="no-button" id="logout">LOGOUT</button>
             {{else}}
-            <a href="/login">login</a>
+            <a href="/login">LOGIN</a>
             {{/if}}
           </nav>
           <h1 class="hero-text display-4">PARK BUDDY 2.0</h1>
@@ -59,17 +59,15 @@
             <span class="text-muted">copywrite Parks 2.0 team</span>
           </div>
 
-          <div class="col-md-6">
-            <span class="text-muted">copywrite Parks 2.0 team</span>
-          </div>
+          
         </div>
       </div>
     </footer>
   </div>
 
   {{!-- SCRIPT TAGS --}}
-  <script src="/js/parks.js"></script>
   <script src="https://kit.fontawesome.com/a0cfee6d13.js" crossorigin="anonymous"></script>
+
   <!-- Render script for logged in users only -->
   {{#if logged_in}}
   <script src="/js/logout.js"></script>

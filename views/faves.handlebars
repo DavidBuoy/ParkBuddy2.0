@@ -1,31 +1,7 @@
 {{!-- Create an each plugin for faves? {{#each faves as |faves|}} --}}
-
-<h1>{{parkData.description}}</h1>
-<h1>TEST</h1>
+<div id="parks-container">
 
 
-
- <div class="col-12 mb-4 text-center">
-
-
-  <h1>{{fullName}}</h1>
-  <p id="park-name"></p>
 </div>
 
-<div class="col-md-8 mb-4">
-  <img
-    src="https://images.unsplash.com/photo-1612392062798-4117917fcc50?ixid=MXwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"
-    alt="" class="card-img-top">
-  <div class="card-body">
-    <h5 class="card-title">{{description}}</h5>
-    <p class="card-text">{{parkData.description}}</p>
-  </div>
-</div>
-
-<div class="col-md-12 text-center">
-  <a href="../views/homepage.handlebars" class="btn btn-outline-success btn-lg ">See More Parks</a>
-  <a href="" class="btn btn-outline-danger btn-lg "><i class="far fa-heart"></i></a>
-</div>
-
-<a href="/project/1"> <button class="add-fav btn-outline-danger btn-lg" data-index=${i}
-    data-fullName="${parks.data[i].fullName}"><i class="far fa-heart"></i></button> </a>
+<script src="/js/faves.js"></script>
